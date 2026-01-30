@@ -54,6 +54,7 @@ config.local.toml
 
 # Project specific
 data/
+playground/
 *.log
 *.sqlite
 *.sqlite3
