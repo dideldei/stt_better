@@ -1,0 +1,18 @@
+[audio]
+device = ""
+samplerate = 16000
+channels = 1
+
+[snippet]
+seconds = 8
+
+[stt]
+model = "small"
+compute_type = "int8"
+beam_size = 5
+language = "de"
+# initial_prompt = "..."  # optional; z.B. Fachbegriffe, Eigennamen; default: nicht gesetzt (None)
+
+[retention]
+recordings_days = 7
+logs_days = 14

@@ -1,0 +1,17 @@
+# Locked dependencies for STT-Diktat-Agent
+# Generated for Python 3.11+
+
+# Textual TUI Framework
+textual>=0.40.0
+
+# Audio processing
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# Speech-to-Text (CPU-only by default)
+# faster-whisper automatically installs ctranslate2 with CPU support
+# No additional GPU packages required for CPU-only operation
+faster-whisper>=0.10.0
+
+# TOML writing (for config updates)
+tomli-w>=1.0.0

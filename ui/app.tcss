@@ -1,0 +1,73 @@
+Screen {
+    background: $surface;
+}
+
+#header_container {
+    height: 4;
+    border: solid $primary;
+}
+
+#header_container Horizontal {
+    width: 1fr;
+    height: 1;
+    layout: horizontal;
+}
+
+#header_keybindings {
+    height: 1;
+}
+
+#status_container {
+    height: 6;
+    border: solid $primary;
+    margin: 1;
+}
+
+#status_line {
+    height: 1;
+}
+
+#feedback_snippet_container {
+    height: 10;
+    margin: 1;
+}
+
+#live_feedback_container {
+    width: 1fr;
+    border: solid $primary;
+    padding: 1;
+}
+
+#snippet_container {
+    width: 1fr;
+    border: solid $primary;
+    padding: 1;
+    margin-left: 1;
+}
+
+#transcript_container {
+    height: 1fr;
+    border: solid $primary;
+    margin: 1;
+    padding: 1;
+}
+
+#transcript_scroll {
+    height: 1fr;
+    min-height: 2;
+}
+
+.section_title {
+    text-style: bold;
+    margin-bottom: 0;
+}
+
+.empty_text {
+    color: $text-muted;
+}
+
+#snippet_quality {
+    margin-left: 1;
+    text-style: bold;
+    color: $text;
+}
