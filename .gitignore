@@ -48,6 +48,10 @@ htmlcov/
 .env.local
 config.local.toml
 
+# Documentation (only README.md in repo)
+*.md
+!README.md
+
 # Project specific
 data/
 *.log
